@@ -251,6 +251,7 @@ a.active {
 }
 
 
+/* ======= Glitch ========= */
 
 
 /* ====== Code editor ====== */
@@ -609,7 +610,7 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    background: url(../img/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -633,7 +634,7 @@ a.active {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 750px;
+    height: 1000px;
     background-attachment: fixed;
 }
 
@@ -646,12 +647,14 @@ a.active {
 
 #intro p.subtitle {
     color: #ddd;
+    font-size: 30px;
+
 }
 
 .intro-content {
     position: absolute;
     padding: 20% 0 5% 0;
-    top: -300px;		
+    margin-top: -3%;		
     left: 0;
     right: 0;
     z-index: 0;
@@ -685,7 +688,7 @@ a.fa.fa-angle-down {
     padding: 10px 14px;
     color: #aaa;
     font-size: 50px;
-    margin-top: 175px;
+    margin-top: 50px;
     transition: all 0.5s;
 }
 
@@ -740,7 +743,7 @@ a.fa.fa-angle-down:focus {
     padding: 20px;
     height: 200px;
     width: 50%;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 #about #tl-dr h3 {
@@ -891,7 +894,7 @@ a.fa.fa-angle-down:focus {
     height: 175px;
     line-height: 175px;
     max-width: 100%;
-    background: #00009C;
+    background: #296d98;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
