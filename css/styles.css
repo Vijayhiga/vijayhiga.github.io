@@ -816,15 +816,12 @@ a {
     z-index: 0;
 }
 
+
 @media screen and (max-width: 1000px) {
     .intro-content {
         padding: 25% 0 5% 0;
     }
 
-    .no-mobile
-{
-    display: none;
-}
 
 }
 
@@ -835,10 +832,11 @@ a {
     .navbar-toggle {
         padding: 0px 10px;
     }
+
     .no-mobile
-{
+    {
     display: none;
-}
+    }
 
 }
 
@@ -849,11 +847,11 @@ a {
     a.fa.fa-angle-down {
         margin-top: 80px !important;
     }
-    
+
     .no-mobile
-{
+    {
     display: none;
-}
+    }
 
 }
 
