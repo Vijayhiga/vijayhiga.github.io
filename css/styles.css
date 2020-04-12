@@ -279,7 +279,7 @@ span.wave {
   font-weight: 600;
   font-size: 35px;
   position: relative;
-  width: 350px;
+  width: 640px;
   left: 50%;
   margin-left: -180px;
   height: 40px;
@@ -294,7 +294,7 @@ b {
 
 .word {
   position: absolute;
-  width: 220px;
+  width: 230px;
   opacity: 0;
 }
 
@@ -339,6 +339,13 @@ b {
   color: #2c3e50;
 }
 
+
+
+@media screen and (max-width: 580px) {
+    .text {
+        max-width: 330px;
+        font-size: 30px;
+    }
 
 }
 
