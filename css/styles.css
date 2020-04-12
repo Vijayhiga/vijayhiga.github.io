@@ -339,18 +339,12 @@ b {
   color: #2c3e50;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1000px){
 
 .text {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 25px;
-  position: relative;
   width: 500px;
-  left: 50%;
-  height: 40px;
-  top: 50%;
-  margin-top: -20px;
 }
 
 }
