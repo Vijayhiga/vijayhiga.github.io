@@ -279,7 +279,7 @@ span.wave {
   font-weight: 600;
   font-size: 35px;
   position: relative;
-  width: 300px;
+  width: 350px;
   left: 50%;
   margin-left: -180px;
   height: 40px;
@@ -370,15 +370,6 @@ b {
   position:relative;
   top:-0.14em;
   left:10px;
-}
-
-@media only screen and (max-width: 640px){
-
-  .console-container {
-    font-size: 2.25cm;
-    width: 300px;
-  }
-
 }
 
 
