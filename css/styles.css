@@ -279,7 +279,7 @@ span.wave {
   font-weight: 600;
   font-size: 35px;
   position: relative;
-  width: 750px;
+  width: 25%;
   left: 50%;
   margin-left: -180px;
   height: 40px;
@@ -339,13 +339,6 @@ b {
   color: #2c3e50;
 }
 
-@media screen and (max-width: 1000px){
-
-.text {
-  font-weight: 500;
-  font-size: 25px;
-  width: 500px;
-}
 
 }
 
