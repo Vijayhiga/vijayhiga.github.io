@@ -279,6 +279,7 @@ span.wave {
   font-weight: 600;
   font-size: 35px;
   position: relative;
+  width: 350px;
   left: 50%;
   margin-left: -180px;
   height: 40px;
@@ -293,6 +294,7 @@ b {
 
 .word {
   position: absolute;
+  width: 220px;
   opacity: 0;
 }
 
