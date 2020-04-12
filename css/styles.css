@@ -293,7 +293,6 @@ b {
 
 .word {
   position: absolute;
-  width: 220px;
   opacity: 0;
 }
 
