@@ -805,6 +805,8 @@ a {
 
 }
 
+
+
 .intro-content {
     position: absolute;
     padding: 20% 0 5% 0;
@@ -818,6 +820,12 @@ a {
     .intro-content {
         padding: 25% 0 5% 0;
     }
+
+    .no-mobile
+{
+    display: none;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -827,6 +835,11 @@ a {
     .navbar-toggle {
         padding: 0px 10px;
     }
+    .no-mobile
+{
+    display: none;
+}
+
 }
 
 @media screen and (max-width: 580px) {
@@ -836,6 +849,12 @@ a {
     a.fa.fa-angle-down {
         margin-top: 80px !important;
     }
+    
+    .no-mobile
+{
+    display: none;
+}
+
 }
 
 a.fa.fa-angle-down {
